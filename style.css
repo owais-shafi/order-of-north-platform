@@ -3,3 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #d78a8a;
+}
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+.container {
+  height: 80vh;
+  width: 155vh;
+  background-color: #efe7e7;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #000000;
+}
