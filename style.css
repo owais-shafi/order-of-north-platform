@@ -1,3 +1,4 @@
+/* testing */
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +6,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #d78a8a;
+  background-color: #8df74c;
 }
 .parent-container {
   display: flex;
@@ -16,10 +17,10 @@ body {
 .container {
   height: 80vh;
   width: 155vh;
-  background-color: #efe7e7;
+  background-color: #fc08f4;
 }
 h1 {
   text-align: center;
   margin-top: 20px;
-  color: #000000;
+  color: #e2abab;
 }
