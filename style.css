@@ -22,5 +22,8 @@ h1 {
   color: #e2abab;
 }
 #header {
-  background-color: maroon;
+  color: white;
+  background-color: darkred;
+  font-size: 40px;
+  padding: 20px;
 }
