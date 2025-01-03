@@ -5,13 +5,13 @@
   box-sizing: border-box;
 }
 body {
-  min-height: 100vh;
-  background: rebeccapurple;
+  min-height: 50vh;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -21,22 +21,23 @@ body {
   justify-content: space-between;
   z-index: 100;
 }
-h2 {
+.header h2 {
   font-size: 18px;
-  color: white;
-  font-weight: 500;
-  margin-left: -40px;
-  top: 2px;
+  color: rgb(35, 28, 28);
+  font-weight: 400;
+  margin-left: -24px;
+  padding-top: 3px;
   word-spacing: 10px;
 }
 .navbar a {
   position: relative;
   font-size: 18px;
-  color: white;
+  color: rgb(61, 58, 58);
   font-weight: 500;
   text-decoration: none;
   margin-left: 50px;
   left: 20px;
+  top: 1px;
 }
 .navbar a::before {
   content: "";
@@ -45,9 +46,103 @@ h2 {
   left: 0;
   width: 0;
   height: 2px;
-  background: white;
+  background: rgb(55, 54, 54);
   transition: 0.3s;
 }
 .navbar a:hover::before {
   width: 100%;
+}
+.bg-grey {
+  margin-top: 35vh;
+  height: 70vh;
+  background: #bbbba1;
+}
+.bg-white {
+  margin-top: 70vh;
+  height: 35vh;
+  background: #ffffff;
+}
+.who-we-are {
+  position: relative;
+  margin-left: 5%;
+  height: 50vh;
+  width: 40%;
+  background: #ffff0000;
+  bottom: 188.5vh;
+}
+.who-we-are h1 {
+  font-size: 87px;
+  color: #181212;
+}
+.t1 {
+  position: relative;
+  margin-left: 54%;
+  height: 63vh;
+  width: 22%;
+  background: #ffffffa1;
+  bottom: 235vh;
+  border-radius: 20px;
+}
+.t1 h2 {
+  font-size: 50px;
+  color: #181212e5;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.t2 {
+  position: relative;
+  margin-left: 78%;
+  height: 30.4vh;
+  width: 20%;
+  background: #ffffffa1;
+  bottom: 298vh;
+  border-radius: 20px;
+}
+.t3 {
+  position: relative;
+  margin-left: 78%;
+  bottom: 294.5vh;
+  width: 20%;
+  height: 29vh;
+  background: #ffffffa1;
+  border-radius: 20px;
+}
+h2 {
+  font-size: 30px;
+  color: #181212e5;
+  padding-left: 73px;
+  padding-top: 20px;
+}
+.tp1 {
+  margin: 40px 10px 10px 10px;
+  padding-top: 10px;
+  border: 2px solid #00000042;
+  border-radius: 3px;
+}
+.tp1 p {
+  font-size: 15px;
+  color: #000000;
+  padding: 10px;
+}
+.tp2 {
+  font-size: 15px;
+  color: #000000;
+}
+.tp2 p {
+  margin: 25px 10px 10px 10px;
+  padding: 5px;
+  padding-bottom: 5px;
+  border: 2px solid #00000042;
+  border-radius: 5px;
+}
+.tp3 {
+  font-size: 15px;
+  color: #000000;
+}
+.tp3 p {
+  margin: 10px;
+  padding: 5px;
+  padding-bottom: 5px;
+  border: 2px solid #00000042;
+  border-radius: 5px;
 }
