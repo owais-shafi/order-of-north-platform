@@ -61,6 +61,7 @@ body {
   margin-top: 27vh;
   height: 70vh;
   background: #d1cfd1;
+  animation: slideInFromLeft 1s ease-out;
 }
 .bg-white {
   margin-top: 70vh;
