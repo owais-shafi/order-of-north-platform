@@ -61,7 +61,6 @@ body {
   margin-top: 27vh;
   height: 70vh;
   background: #d1cfd1;
-  animation: slideInFromLeft 1s ease-out;
 }
 .bg-white {
   margin-top: 70vh;
@@ -76,7 +75,7 @@ body {
   background: #ffff0000;
   bottom: 188.5vh;
 }
-/* .who-we-are h1 { */
+
 #i {
   font-size: 87px;
   color: #181212;
